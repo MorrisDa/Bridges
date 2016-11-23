@@ -1,3 +1,9 @@
+/*
+The MIT License (MIT)
+Copyright (c) 2016 Daniele Tomasi
+
+*/
+
 "use strict";
 
 function c(newInterval, intervals, index) {
