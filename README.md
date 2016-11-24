@@ -5,9 +5,9 @@ Particularly useful for caching temporally sorted data and for calculating the m
 ##Example
 
 
-```A``` = 1-2-3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5-6-7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10-11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+<br/>
+```A``` = 1-2-3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5-6-7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10-11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+<br/>
 ```B``` = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3-4-5-6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12-16&nbsp;=<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-------------------------------------------<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;------------------------------------<br/>
 ```I```	=	1-2-3-4-5-6-7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10-11&nbsp;&nbsp;12-16&nbsp;<br/>
 ```C``` = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3-4-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12-16
 
