@@ -1,12 +1,11 @@
 /*
 The MIT License (MIT)
 Copyright (c) 2016 Daniele Tomasi
-
+morris@morrisda.com
 */
-
-"use strict";
-
 function c(newInterval, intervals, index) {
+
+	"use strict";
 
 	var from	= newInterval[0],
 			to		= newInterval[1];

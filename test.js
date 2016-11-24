@@ -228,7 +228,7 @@ describe("Recursive Case", function() {
 		assert.deepEqual(test.intersection, [[8, 14]]);
 	});
 
-	it("should return the updated array (dio)", function() {
+	it("should return the updated array", function() {
 		var interval = [[2, 5], [7, 8], [15, 22]];
 		var newInterval = [6, 15];
 		var test = normalize(newInterval, interval);
@@ -237,7 +237,7 @@ describe("Recursive Case", function() {
 		assert.deepEqual(test.intersection, [[6, 7], [8, 15]]);
 	});
 
-	it("should return the updated array (dio)", function() {
+	it("should return the updated array", function() {
 		var interval = [[2, 5], [7, 8], [15, 22]];
 		var newInterval = [6, 16];
 		var test = normalize(newInterval, interval);
@@ -246,7 +246,7 @@ describe("Recursive Case", function() {
 		assert.deepEqual(test.intersection, [[6, 7], [8, 15]]);
 	});
 
-	it("should return the updated array (dio)", function() {
+	it("should return the updated array", function() {
 		var interval = [[2, 5], [7, 8], [15, 22]];
 		var newInterval = [6, 23];
 		var test = normalize(newInterval, interval);
@@ -255,7 +255,7 @@ describe("Recursive Case", function() {
 		assert.deepEqual(test.intersection, [[6, 7], [8, 15], [22, 23]]);
 	});
 
-	it("should return the updated array (dio)", function() {
+	it("should return the updated array", function() {
 		var interval = [[2, 5], [7, 8], [15, 22], [25, 45]];
 		var newInterval = [6, 23];
 		var test = normalize(newInterval, interval);
@@ -264,7 +264,7 @@ describe("Recursive Case", function() {
 		assert.deepEqual(test.intersection, [[6, 7], [8, 15], [22, 23]]);
 	});
 
-	it("should return the updated array (dio)", function() {
+	it("should return the updated array", function() {
 		var interval = [[2, 5], [7, 8], [15, 22]];
 		var newInterval = [7, 16];
 		var test = normalize(newInterval, interval);
@@ -273,7 +273,7 @@ describe("Recursive Case", function() {
 		assert.deepEqual(test.intersection, [[8, 15]]);
 	});
 
-		it("should return the updated array (dio)", function() {
+		it("should return the updated array", function() {
 			var interval = [[2, 5], [7, 9], [15, 22], [25, 35]];
 			var newInterval = [3, 8];
 			var test = normalize(newInterval, interval);
@@ -283,7 +283,7 @@ describe("Recursive Case", function() {
 		});
 
 
-		it("should return the updated array (dio)", function() {
+		it("should return the updated array", function() {
 			var interval = [[2, 5], [7, 9], [11, 23]];
 			var newInterval = [8, 24];
 			var test = normalize(newInterval, interval);
@@ -292,7 +292,7 @@ describe("Recursive Case", function() {
 			assert.deepEqual(test.intersection, [[ 9, 11 ], [ 23, 24 ]]);
 		});
 
-		it("should return the updated array (dio)", function() {
+		it("should return the updated array", function() {
 			var interval = [[2, 5], [7, 9], [13, 15], [19,22], [24,50]];
 			var newInterval = [10, 24];
 			var test = normalize(newInterval, interval);
@@ -301,7 +301,7 @@ describe("Recursive Case", function() {
 			assert.deepEqual(test.intersection, [[10,13], [15,19], [22,24]]);
 		});
 
-		it("should return the updated array (dio)", function() {
+		it("should return the updated array", function() {
 			var interval = [[2, 5], [7, 9], [13, 15], [19,22], [24,50]];
 			var newInterval = [10, 25];
 			var test = normalize(newInterval, interval);
@@ -481,7 +481,7 @@ describe("Test 1", function() {
 		assert.deepEqual(test.intersection, [[1,2]]);
 	});
 
-	it("should return the updated array (a)", function() {
+	it("should return the updated array", function() {
 		var interval = [[2, 5], [10, 20], [21, 30]];
 		var newInterval = [1, 21];
 		var test = normalize(newInterval, interval);
@@ -491,7 +491,7 @@ describe("Test 1", function() {
 	});
 
 
-	it("should return the updated array (b)", function() {
+	it("should return the updated array", function() {
 		var interval = [[2, 5], [10, 20], [21, 30]];
 		var newInterval = [2, 21];
 		var test = normalize(newInterval, interval);
