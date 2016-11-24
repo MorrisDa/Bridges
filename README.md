@@ -1,4 +1,8 @@
 #Bridge
+
+[![codecov](https://codecov.io/gh/MorrisDa/Bridges/branch/master/graph/badge.svg)](https://codecov.io/gh/MorrisDa/Bridges)
+
+
 Function for union of intervals.<br/>
 Particularly useful for caching temporally sorted data and for calculating the missing intervals.
 
