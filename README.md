@@ -62,6 +62,9 @@ console.log(test.intersection) //the missing intervals -> [[9, 10]];
 
 ```
 
+##Tests
+Simply run ```npm test``` after installing dev dependencies. Coverage of tests is 100%.
+
 
 ##Notes
 The function doesn't create any new object, so that the ```interval``` array parameter (passed by reference) will be modified by function's call, resulting as the updated intervals. 
