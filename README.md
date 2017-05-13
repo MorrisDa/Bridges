@@ -1,4 +1,5 @@
-#Bridge
+# Bridge
+Bridge is a simple algorhitm for calculating the missing intervals 
 
 [![codecov](https://codecov.io/gh/MorrisDa/Bridges/branch/master/graph/badge.svg)](https://codecov.io/gh/MorrisDa/Bridges)
 [![Build Status](https://travis-ci.org/MorrisDa/Bridges.svg?branch=master)](https://travis-ci.org/MorrisDa/Bridges)
@@ -6,22 +7,14 @@
 Function for union of intervals.<br/>
 Particularly useful for caching temporally sorted data and for calculating the missing intervals.
 
-##Example
+## Example
+```
+[1,2,3]
+```
 
 
-```A``` = 1-2-3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5-6-7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10-11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+<br/>
-```B``` = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3-4-5-6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12-16&nbsp;=<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;------------------------------------<br/>
-```I```	=	1-2-3-4-5-6-7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10-11&nbsp;&nbsp;12-16&nbsp;<br/>
-```C``` = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3-4-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12-16
 
-```A``` is a given ordained set of intervals, ```B``` is an interval we want to add to our set ```A```. <br/>
-```I``` is the result of the operation ```A``` U ```B ```. <br/>
-```C``` is the set of intervals resulting from the operation ```I``` - ```A``` (the missing intervals added to ```A``` from ```B``` to obtain ```I```).<br/>
-
-In code, it will be: <br/>
-
-###Exemple 1
+### Example 1
 
 ```javascript
 var f = require('./algo.js')
