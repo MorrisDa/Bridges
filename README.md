@@ -32,7 +32,7 @@ console.log(call2.intersection) //the missing intervals -> [[12, 16]];
 
 ```
 
-###Exemple 2
+### Example 2
 
 ```javascript
 var f = require('./algo.js')
@@ -45,7 +45,7 @@ console.log(interval) //the resulting intervals -> [[2,5], [6,9]];
 console.log(test.intersection) //the missing intervals -> [[5, 6], [8, 9]];
 
 ```
-###Exemple 3
+### Example 3
 
 ```javascript
 var f = require('./algo.js')
@@ -59,9 +59,9 @@ console.log(test.intersection) //the missing intervals -> [[9, 10]];
 
 ```
 
-##Tests
+## Tests
 Simply run ```npm test``` after installing dev dependencies. Coverage of tests is 100%.
 
 
-##Notes
+## Notes
 The function doesn't create any new object, so that the ```interval``` array parameter (passed by reference) will be modified by function's call, resulting as the updated intervals. 
